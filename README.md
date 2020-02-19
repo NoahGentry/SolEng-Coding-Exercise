@@ -58,7 +58,7 @@ Rake - This is another library that I was familiar with already from tools that 
 
 Bundler - This library is used to provide an easy way for someone to install all of the dependencies for this project using the `bundle install` command.
 
-4 - Over 3 different sessions I spent roughly 5 hours on this project. If I had unlimited additional time, I would focus on making this script more accessible to an end-user by creating some other way to trigger this script than running it manually from the command line, and providing more feedback to the user. Additionally, I would add some safeguards against some errors that would likely be encountered in the wild.
+4 - Over 3 different sessions I spent roughly 5 hours on this project, not including the time spent writing this README. If I had unlimited additional time, I would focus on making this script more accessible to an end-user by creating some other way to trigger this script than running it manually from the command line, and providing more feedback to the user. Additionally, I would add some safeguards against some errors that would likely be encountered in the wild.
 
 To simplify running the script, since this process relies on pulling data from an XML file on an FTP server the most likely paths would be setting this script to run on a schedule (i.e. pull data from the server nightly and update products) or having it run in response to an Exavault webhook (i.e. whenever someone drops a new file on the server, pull data from that file and update products). I would explore a scheduled update first as that would be easier to implement and solve a wide range of use-cases, but certain users might not be satisfied with that solution so I would likely explore other ideas as well over time.
 
